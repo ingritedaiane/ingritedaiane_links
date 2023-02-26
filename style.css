@@ -165,6 +165,6 @@ footer {
     --bg-url: url(./assets/bgdesktopdark.jpg);
   }
   .light {
-    --bg-url: url(https://github.com/ingritedaiane/DevLinks/blob/main/assets/bgdesktoplight.jpg?raw=true);
+    --bg-url: url(https://raw.githubusercontent.com/ingritedaiane/DevLinks/main/assets/bgdesktoplight.jpg);
   }
 }
