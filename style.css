@@ -15,14 +15,14 @@
 }
 
 .light {
-    --text-color: black;
-    --bg-url: url(./assets/bgmobilelight.jpg);
-    --stroke-color: rgba(0, 0, 0, 0.5);
-    --surface-color: rgba(0, 0, 0, 0.05);
-    --surface-color-hover: rgba(0, 0, 0, 0.02);
-    --highlight-color:rgba(0, 0, 0, 0.1);
-    --switch-bg-url: url(./assets/sun.svg);
-  }
+  --text-color: black;
+  --bg-url: url(./assets/bgmobilelight.jpg);
+  --stroke-color: rgba(0, 0, 0, 0.5);
+  --surface-color: rgba(0, 0, 0, 0.05);
+  --surface-color-hover: rgba(0, 0, 0, 0.02);
+  --highlight-color: rgba(0, 0, 0, 0.1);
+  --switch-bg-url: url(./assets/sun.svg);
+}
 
 body {
   background: var(--bg-url);
@@ -37,7 +37,8 @@ body * {
 }
 
 #conteiner {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
@@ -91,7 +92,7 @@ body * {
   width: 64px;
   height: 24px;
   border: 1px solid var(--stroke-color);
-  background:var(--surface-color);
+  background: var(--surface-color);
   backdrop-filter: blur(4px);
   border-radius: 9999px;
 }
@@ -100,7 +101,7 @@ body * {
 
 ul {
   list-style: none;
-  
+
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -133,7 +134,7 @@ ul li a:hover {
   background: var(--surface-color-hover);
 }
 
-#icones a :hover{
+#icones a :hover {
   background: var(--highlight-color);
 }
 
