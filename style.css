@@ -81,11 +81,16 @@ body * {
   left: 0;
   z-index: 1;
   transform: translateY(-50%);
+
+  animation: slider-back 0.4s;
 }
 
 .light #switch button {
-  right: 0;
-  left: initial;
+  animation: slider 0.4s forwards;
+}
+
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
 }
 
 #switch span {
@@ -136,7 +141,8 @@ ul li a:hover {
 }
 
 #icones a :hover {
-  background: var(--highlight-color);
+  outline: 12px solid var(--highlight-color);
+  border-radius: 50%;
 }
 
 #icones {
@@ -166,5 +172,24 @@ footer {
   }
   .light {
     --bg-url: url(./assets/bgdesktoplight.jpg);
+  }
+
+  /*animação*/
+}
+@keyframes slider {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slider-back {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
   }
 }
