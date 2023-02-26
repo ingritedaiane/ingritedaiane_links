@@ -1,25 +1,20 @@
-<h1 align="center"> DevLinks </h1>
+<h1 align="center"> DevLinks </h1><br>
+<div align="center">
+  
+<img src="https://repository-images.githubusercontent.com/606758404/e5f7a9ff-0e57-452f-8b17-d478ef6c56f7" width="500px">
 
-<p align="center">
-Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
+<br><p>
+Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB.<br>
 <a href="https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito">Estude esse projeto em formato de vídeo clicando aqui.</a>
 </p>
-
-<p align="center">
+<p>
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
-</p>
-
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
 
 <br>
-<div align="center">
 
-  
 </p>
 
 ## 🚀 Tecnologias
@@ -40,7 +35,10 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 
 O DevLinks é um agregador de links para usar como cartão de visitas online.
 
-[Acesse o projeto finalizado, clicando aqui](https://ingritedaiane.github.io/DevLinks/) 📌
+<br>📌<br>
+<a href="https://ingritedaiane.github.io/DevLinks/" target="_blank">Acesse o meu projeto finalizado<br>
+access to the project, click here!</a>
+<br>📌<br>
 
 [Assistir aulas](https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito)
 
@@ -50,7 +48,8 @@ Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figm
 
 ## 📝 Licença
 
-Esse projeto está sob a licença MIT.
+Esse projeto está sob a <br>
+<img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 
 ---
 
